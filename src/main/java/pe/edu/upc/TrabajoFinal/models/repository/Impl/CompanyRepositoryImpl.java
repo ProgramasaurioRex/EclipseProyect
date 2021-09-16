@@ -28,15 +28,9 @@ public class CompanyRepositoryImpl implements CompanyRepository {
 	
 	@Override
 	public Optional<Company> findByUserName(String name) throws Exception {
-		return findByUserName(name, Company.class);
+		return findByUserName(name);
 	}
 	
-	@Override
-	public List<Company> findByUserName(Company company) throws Exception {
-	
-		return null;
-	}
-
 
 	@Override
 	public Optional<Company> findById(String id) throws Exception {
@@ -50,3 +44,4 @@ public class CompanyRepositoryImpl implements CompanyRepository {
 		// TODO Auto-generated method stub
 		return null;
 	}
+}
