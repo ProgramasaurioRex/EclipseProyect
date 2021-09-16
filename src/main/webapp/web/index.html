@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ExamenFinal</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <a id="logo" href="index.html">
+            <img src="img/tractor.png" alt="Logo">
+            <span>AGROSHOP </span>
+        </a>
+        <nav>
+            <ul>
+                <li><a>Acerca de nosotros</a></li>
+                <li><a>Contactanos</a></li>
+                <li><a>Servicios</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="portada">
+            <div class="portada-content">
+                <h1 class="portada-title">LA 1RA EMPRESA AGRÓNOMA QUE SE PREOCUPA POR TODO EL PERÚ</h1>
+                <p>Ofrecemos todo tipo de servicios y te vincularemos con todo el Perú</p>
+
+                <a href="#">Asesoría para Agricultores</a>
+                <a href="#">Asesoría para Cooperativas</a>
+                <a href="#">Asesoría para Corporativo</a>
+                <a href="#">Venta de materiales e insumos agrícolas</a>
+            </div>
+        </div>
+        <div class="site-section">
+            <div class="site-section-inside">
+
+                <div class="section-header">
+                    <h2>CARACTERÍSTICAS PRINCIPALES</h2>
+                </div>
+
+                <div class="feature-box">
+                    <img src="img/trabajadores.jpg" alt="Trabajadores de alto nivel">
+                    <h5>Trabajadores de alto nivel</h5>
+                    <p>Nosotros disponemos de los mejores trabajadores!</p>
+                </div>
+                <div class="feature-box">
+                    <img src="img/discapacitados.jpg" alt="Discapacitados">
+                    <h5>Atención para las personas discapacitadas</h5>
+                    <p>Nosotros tenemos prioridas y promociones en torno a las personas con discapcidad!</p>
+                </div>
+
+                <div class="feature-box">
+                    <img src="img/productos.png" alt="Excelencia de productos">
+                    <h5>Excelencia de productos</h5>
+                    <p>Todos nuestros productos son de la mejor calidad posible!</p>
+                </div>
+
+
+
+            </div>
+        </div>
+
+        <section class="First-part">
+            <img style="width: 23rem; height:32rem;" src="./img/planta2.jpg" alt="">
+            <img class="campo-1" src="./img/agri2.jpg" alt="">
+            <div class="M-info-1">
+                <h1 id="Us">Asesoría para Agricultores</h1><br>
+                <div class="line-01"></div><br><br>
+                <p class="P-01">Le brindamos toda la ayuda a los agrocultores.</p><br>
+                <p class="P-02">Para los agricultores que desean mejorar sus prácticas de gestión agrícola
+                    Registro totalmente GRATIS
+                    permite registrar información que quede registrada en el dispositivo móvil del usuario
+                </p>
+            </div>
+        </section>
+
+        <section class="Third-part" style="display: flex;">
+            <div class="T-info-2">
+                <h1 style="font-size: 2rem;" id="Customer-M">Asesoría para cooperativas</h1><br>
+                <div class="line-01"></div><br><br>
+                <ul>
+                    <li>Todo tipo de benefícios para tu cooperativa</li><br>
+                    <li><a>Orientado para agricultores avanzados</a>
+                        <a>Costo de US$ 8.00 por mes</a>
+                        <a>Permite mantener información de hasta 20 agricultores asociados</a> </li><br>
+                </ul>
+                <input class="button-01" type="submit" name="" id="" value="Registrarse">
+            </div>
+            <img class="store-1"  src="./img/coperativas.jpg" alt="">
+        </section>
+
+        <section class="Fourth-part">
+            <img style="width: 23rem; height:32rem;" src="./img/planta2.jpg" alt="">
+            <img class="agro-1" src="./img/copo.jpg" alt="">
+            <div class="F-info-3">
+                <h1 id="Customer-P">conviertete en corporativa</h1><br>
+                <ul>
+                    <li>Orientado para agricultores avanzado
+                        Costo de US$ 16.00 por mes
+                        Permite mantener una cantidad de
+                        Hasta 100 terrenos vinculados
+                        Adicionalmente, el usuario puede realizar in-app purchases</li><br>
+                </ul>
+
+            </div>
+        </section>
+        <div class="line-4"></div><br><br>
+
+        <section class="Second-part" style="display: flex;">
+            <div class="T-info-2">
+                <h1 style="font-size: 2rem;" id="Customer-M">Se un vendedor de productos</h1><br>
+                <div class="line-01"></div><br><br>
+                <ul>
+                    <li>Servicio especializado en la adquisición de productos
+                        nacionales e internacionales para la atención de los pedidos de venta de los agricultores</a> </li><br>
+                </ul>
+                <input class="button-01" type="submit" name="" id="" value="Registrarse">
+            </div>
+            <img class="store-1"  src="./img/cende.jpg" alt="">
+        </section>
+
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+            <script type="text/javascript">
+
+                // Load the Visualization API and the corechart package.
+                google.charts.load('current', {'packages':['corechart']});
+
+                // Set a callback to run when the Google Visualization API is loaded.
+                google.charts.setOnLoadCallback(drawChart);
+
+                // Callback that creates and populates a data table,
+                // instantiates the pie chart, passes in the data and
+                // draws it.
+                function drawChart() {
+
+                    // Create the data table.
+                    var data = new google.visualization.DataTable();
+                    data.addColumn('string', 'Topping');
+                    data.addColumn('number', 'Slices');
+                    data.addRows([
+                        ['Mushrooms', 3],
+                        ['Onions', 1],
+                        ['Olives', 1],
+                        ['Zucchini', 1],
+                        ['Pepperoni', 2]
+                    ]);
+
+                    // Set chart options
+                    var options = {'title':'How Much Pizza I Ate Last Night',
+                        'width':400,
+                        'height':300};
+
+                    // Instantiate and draw our chart, passing in some options.
+                    var chart = new google.visualization.PieChart(document.getElementById('chart_div'));
+                    chart.draw(data, options);
+                }
+            </script>
+        <footer class="info">
+            <div class="info-final">
+                <label style="margin-left: 7rem; font-size: 3rem;" for="" id="Part">SE PARTE DE NOSTROS</label>
+                <br><br><br><label for="">Nosotros te ayudaremos a que tu negocio emprenda</label>
+
+            </div>
+            <div class="controls">
+                <input class="email" type="email" placeholder="Correo Electrónico">
+                <select class="select" name="select" id="" >
+                    <option value="">¿En qué rubro trabajas o qué te gustaría ser?</option>
+                    <option value="">Agricultor</option>
+                    <option value="">Vendedor</option>
+                    <option value="">Corporativa</option>
+                    <option value="">Cooperativa</option>
+                </select>
+                <input class="F-button" type="submit" value="Registrarse">
+            </div>
+            <div class="image-final">
+                <img src="./img/fb.png" alt="">
+                <img src="./img/IG.png" alt="">
+                <img src="./img/twitter.png" alt="">
+                <img src="./img/youtube.png" alt="">
+            </div>
+        </footer>
+
+
+    </main>
+
+
+<div id="contanedor">
+    <header>
+        <h1></h1>
+    </header>
+</div>
+
+
+</body>
+</html>

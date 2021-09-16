@@ -1,0 +1,313 @@
+*     {
+    box-sizing: border-box;
+}
+html,
+body   {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+/* styling our overall page */
+body     {
+    background: #fffcf9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header   {
+    background: #b2ff79;
+    color: #FFF;
+    padding: 10px 30px;
+}
+
+/* logo */
+#logo         {
+    display: inline-block;
+    color: #FFF;
+    text-decoration: none;
+    width: 49%;
+}
+#logo img    {
+    width: 80px;
+    border-radius: 3px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+#logo span   {
+    display: inline-block;
+}
+
+nav     {
+    width: 50%;
+    display: inline-block;
+    text-align: right;
+}
+nav ul   {
+    list-style: none;
+    margin: 0;
+}
+nav ul li {
+    display: inline-block;
+}
+nav ul li a    {
+    color: #FFF;
+    text-decoration: none;
+    display: block;
+    padding: 10px 15px;
+    border-radius: 3px;
+    transition: 0.3s ease all;
+}
+nav ul li a:hover   {
+    background: darkgray;
+}
+
+.portada           {
+    min-height: 700px;
+    text-align: center;
+    background-image: url('../img/Portada.jpg');
+    background-size: cover;
+}
+.portada-content   {
+    color: #FFF;
+    padding-top: 130px;
+}
+.portada-content h1   {
+    font-size: 50px;
+    margin: 0;
+}
+.portada-content p    {
+    font-size: 30px;
+}
+.portada-content a    {
+    display: inline-block;
+    color: #FFFFFF;
+    border: 3px solid #FFF;
+    border-radius: 3px;
+    padding: 20px 40px;
+    margin-right: 30px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.site-section   {
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.site-section-secondary   {
+    background: #EFEFEF;
+}
+.site-section-inside   {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.section-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.section-header h2  {
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #777;
+}
+
+.feature-box   {
+    display: inline-block;
+    width: 33%;
+    padding: 20px 30px;
+}
+.feature-box img  {
+    margin-bottom: 20px;
+    width: 80%;
+}
+.feature-box h5   {
+    font-size: 20px;
+    color: #999;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 2px;
+    margin: 0;
+}
+.First-part{
+    display: flex;
+    background-color: #f3f3f3;
+}
+.First-part .campo-1{
+    width: 35rem;
+    height: 44rem;
+    margin-top: 6rem;
+
+}
+.M-info-1{
+    width: 44rem;
+    height: 30rem;
+    margin-top: 6rem;
+    margin-left: 8rem;
+}
+.M-info-1 h1{
+    font-size: 2rem;
+}
+.line-01{
+    width: 16rem;
+    height: 1.2rem;
+    background-color: #7BEBA4;
+}
+.M-info-1 .P-01{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.M-info-1 .P-02{
+    font-size: 1.6rem;
+}
+.info{
+
+    border: 0.01rem solid transparent;
+    background: #c2c5c4;
+    width: 100%;
+    height: 30rem;
+    margin: auto;
+}
+.info-final{
+    width: 51rem;
+    height: 12rem;
+    margin: auto;
+    margin-top: 2rem;
+}
+.info-final label{
+    font-size: 2rem;
+    font-weight: 400;
+    color: white;
+}
+.controls{
+    width: 80rem;
+    height: 4rem;
+    margin: auto;
+}
+.controls .email{
+    width: 22rem;
+    height: 3rem;
+    margin-left: 7rem;
+}
+.controls .select{
+    width: 19rem;
+    height: 3.5rem;
+    font-weight: 600;
+    margin-left: 5rem;
+}
+.controls .F-button{
+    border: none;
+    font-size: 1.5rem;
+    width: 14rem;
+    height: 3.4rem;
+    font-weight: 600;
+    background-color: white;
+    margin-left: 5rem;
+}
+.image-final{
+    width: 50rem;
+    height: 4rem;
+    margin: auto;
+    margin-top: 4rem;
+}
+.image-final img{
+    width: 3rem;
+    height: 3em;
+    margin-left: 8rem;
+}
+
+
+.Third-part{
+    background-color: #f3f3f3;
+}
+.T-info-2{
+    width: 45rem;
+    height: 30rem;
+    margin-top: 6rem;
+    margin-left: 10rem;
+}
+.T-info-2 li{
+    margin-left: 1rem;
+    font-size: 1.6rem;
+}
+.T-info-2 .button-01{
+    margin-left: 14rem;
+    margin-top: -4rem;
+    width: 14rem;
+    height: 4rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.T-info-2 .button-01:hover{
+    background-color: rgb(250, 227, 19);
+    border: none;
+    color: white;
+}
+.store-1{
+    width: 33rem;
+    height: 35rem;
+    margin-left: 14rem;
+    margin-top: 3rem;
+}
+
+.plant-1{
+    transform: rotate(180deg);
+    width: 15rem;
+    height:32rem;
+    margin-top: 3rem;
+}
+.store-2{
+    position: absolute;
+    width: 37rem;
+    height:23rem;
+    margin-top: 25rem;
+    margin-left: 55rem;
+}
+.line-3{
+    width: 85rem;
+    height: 1.8rem;
+    margin-left: 16rem;
+    background-color: #7BEBA4;
+    margin-top: 13rem;
+}
+
+.Fourth-part{
+    background-color: #f3f3f3;
+    display: flex;
+    margin-top: 3rem;
+}
+.Fourth-part .agro-1{
+    width: 33rem;
+    height: 33rem;
+    margin-top: 6rem;
+
+}
+.Fourth-part .agro-2{
+    position: absolute;
+    width: 35rem;
+    height: 23rem;
+    margin-top: 26rem;
+    margin-left: 10rem;
+}
+.F-info-3{
+    width: 36rem;
+    height: 30rem;
+    margin-top: 6rem;
+    margin-left: 8rem;
+}
+.line-4{
+    width: 72rem;
+    height: 1.5rem;
+    margin-left: 23rem;
+    margin-top: 14rem;
+    background-color: #154360;
+}
+
+.F-info-3 h1{
+    font-size: 2rem;
+}
+.F-info-3 li{
+    margin-left: 2rem;
+    font-size: 1.6rem;
+}
